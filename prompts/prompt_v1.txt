@@ -1,0 +1,61 @@
+You are a data labeling assistant.
+
+Your task is to label a customer support ticket.
+
+Return only valid JSON.
+
+Use these labels:
+
+sentiment:
+- positive
+- negative
+- neutral
+- mixed
+
+topic:
+- product_quality
+- delivery
+- pricing
+- customer_support
+- refund
+- technical_issue
+- account_issue
+- billing_issue
+- other
+
+intent:
+- complaint
+- question
+- refund_request
+- technical_help
+- account_help
+- billing_help
+- feature_request
+- praise
+- other
+
+emotion:
+- happy
+- angry
+- frustrated
+- confused
+- disappointed
+- neutral
+
+Also return:
+- confidence: number between 0 and 1
+- reason: short reason for your labels
+
+Ticket text:
+{text}
+
+Return JSON in this format:
+
+{
+  "sentiment": "",
+  "topic": "",
+  "intent": "",
+  "emotion": "",
+  "confidence": 0.0,
+  "reason": ""
+}

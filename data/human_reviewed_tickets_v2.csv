@@ -1,0 +1,26 @@
+ticket_id,ticket_description,sentiment,topic,intent,emotion,confidence,reason,review_reason,human_sentiment,human_topic,human_intent,human_emotion,human_notes,review_status
+73,"I'm having an issue with the {product_purchased}. Please assist. When I first noticed {product_purchased} the new price of the book was too high. I've already sent out the refund request, but they will I've checked for software updates, and my {product_purchased} is already running the latest version.",mixed,technical_issue,technical_help,frustrated,0.7,"The customer reports an issue with the product and mentions a refund request and price concern, indicating mixed sentiment. The main problem seems technical, and the customer asks for assistance, showing frustration. The message is somewhat unclear and fragmented, so confidence is moderate.",low_confidence,negative,refund,refund_request,frustrated,"""Multiple issues, chose refund as main topic.
+AI misclassified sentiment, clearly negative tone.""",reviewed
+39,"I'm having an issue with the {product_purchased}. Please assist.
+
+1. Do I need to purchase a refund?
+
+There is a way to purchase a refund from ZEROHITS, but there's not a I'm unable to find the option to perform the desired action in the {product_purchased}. Could you please guide me through the steps?",negative,refund,refund_request,confused,0.8,"Customer is confused about how to purchase a refund and requests guidance, indicating a refund-related issue with some uncertainty.",low_confidence,negative,technical_issue,technical_help,confused,"""I want refund"" → refund_request
+""How do I refund?"" → technical_help",reviewed
+50,"I'm having an issue with the {product_purchased}. Please assist. If you've received a refund, please contact Customer Service. Otherwise, please call us at 303.938.2837. I'm having an issue with the I'm concerned about the security of my {product_purchased} and would like to ensure that my data is safe.",negative,technical_issue,technical_help,frustrated,0.8,"Customer reports an issue with the product and expresses concern about data security, indicating a technical problem and need for assistance, but details are somewhat vague.",low_confidence,negative,other,question,confused,"Security concern is not clearly covered in your topic list.                                                          ""System not working"" → technical_issue
+""I'm worried about security"" → NOT technical_issue",reviewed
+60,"I'm having an issue with the {product_purchased}. Please assist. Also note: Your information gets deleted every time an article is sent to a website you've never viewed.
+
+{Product_id} is a unique identifier in I'm not sure if this issue is specific to my device or if others have reported similar problems.",negative,technical_issue,technical_help,frustrated,0.8,"Customer reports an issue with the product and requests assistance, indicating a technical problem and frustration. The mention of data deletion suggests a technical concern. Some uncertainty about whether the issue is device-specific lowers confidence slightly.",low_confidence,negative,technical_issue,technical_help,confused,Reporting a technical bug + unsure + asking for help,reviewed
+62,"I'm having an issue with the {product_purchased}. Please assist.
+
+I was able to get my $50 bag from the vendor, but the bags I was wearing in the show were covered in stickers and the price for those I've tried different settings and configurations on my {product_purchased}, but the issue persists.",negative,technical_issue,technical_help,frustrated,0.8,"Customer reports an issue with the product and has tried different settings but the problem persists, indicating a technical problem and need for help. The message is somewhat unclear due to mixed details about bags and stickers.",low_confidence,negative,technical_issue,technical_help,frustrated,problem + attempt to fix + still broken,reviewed
+63,"I'm having an issue with the {product_purchased}. Please assist.
+
+}
+
+} }
+
+function getProductCount () {orters(function ($p ) { // This gets the count for all the items in the The issue I'm facing is intermittent. Sometimes it works fine, but other times it acts up unexpectedly.",negative,technical_issue,technical_help,frustrated,0.8,"Customer reports an intermittent issue with the product and requests assistance, indicating a technical problem and frustration, but details are limited.",low_confidence,negative,technical_issue,technical_help,frustrated,Correct label. Intermittent product/system issue.,reviewed
+76,"I'm having an issue with the {product_purchased}. Please assist. 1. It is not allowed to purchase a product from an individual, or for a company in which there are no specific employees or employees, and all products have to I've followed the troubleshooting steps mentioned in the user manual, but the issue persists.",negative,technical_issue,technical_help,frustrated,0.8,"Customer reports an unresolved issue with the product despite following troubleshooting steps, indicating a technical problem and need for help.",low_confidence,negative,technical_issue,technical_help,frustrated,"""Tried steps but still not working""
+→ technical_issue + technical_help + frustrated",reviewed
